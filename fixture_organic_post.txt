@@ -1,0 +1,3 @@
+Spent the evening debugging my first escrow contract on GenLayer Studio. The refund path said "refunded" but the GEN never showed up in my wallet. The explorer showed an outgoing call from the contract to my address with a GenVM error. Cause: I had used get_contract_at(addr).emit_transfer(), which targets a GenLayer contract, and my recipient was a plain wallet. Switching to an EVM contract interface fixed it and the payout finally appeared as a Send.
+
+What still puzzles me: on a simple Wikipedia summary, the first leader got outvoted 3 to 1 before a second leader was accepted.
