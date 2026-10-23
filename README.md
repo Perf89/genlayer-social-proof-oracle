@@ -1,4 +1,3 @@
-[README_social_proof_oracle (1).md](https://github.com/user-attachments/files/33854797/README_social_proof_oracle.1.md)
 # Social Proof Authenticity Oracle
 
 A standalone GenLayer Intelligent Contract primitive submitted for the **Standalone Contracts** track.
